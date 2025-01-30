@@ -1,4 +1,4 @@
-# Bot to Collect Information about Someone using Google / Bing / Yahoo!
+# Info Collector collects information about someone using Google / Bing / Yahoo
 
 This code is a bot that uses Puppeteer to collect information about someone from multiple search engines, including Google, Bing, and Yahoo!. It performs a search using a specified search term, retrieves the search results, and saves them to separate files.
 
@@ -46,17 +46,23 @@ If you choose to use `npm start`, make sure you have the following script define
 
 4. The code will execute the search functions for each search engine, retrieve the search results, and log the titles and links to the console.
 
-5. Additionally, the search results will be saved to separate files: `peopleInformation_google.txt`, `peopleInformation_bing.txt`, and `peopleInformation_yahoo.txt`.
+5. Additionally, the search results will be saved to separate files: 
+`peopleInformation_yahoo.txt`
+`peopleInformation_bing.txt`
+`peopleInformation_google.txt`
 
 ## Output
 
 The code will log the following information to the console:
 
-- Titles and links of the search results from Google.
-- Titles and links of the search results from Bing.
 - Titles and links of the search results from Yahoo.
+- Titles and links of the search results from Bing.
+- Titles and links of the search results from Google.
 
-The search results will also be saved to separate JSON files: `peopleInformation_google.txt`, `peopleInformation_bing.txt`, and `peopleInformation_yahoo.txt`.
+The search results will also be saved to separate JSON files:
+`peopleInformation_yahoo.txt`
+`peopleInformation_bing.txt`
+`peopleInformation_google.txt`
 
 Note: You can modify the search term and file names as per your requirements.
 
