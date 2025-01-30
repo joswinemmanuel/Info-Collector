@@ -5,7 +5,12 @@ const writeFile = util.promisify(fs.writeFile);
 const searchYahoo = require('./yahooSearch');
 const searchBing = require('./bingSearch');
 const searchGoogle = require('./googleSearch');
-const searchTerm = 'Joswin Emmanuel';
+const searchTerm = process.argv[2];
+
+if (!searchTerm) {
+  console.error("Please provide a search term. Example: npm start 'Joswin Emmanuel'");
+  process.exit(1);
+}
 
 (async () => {
   try {

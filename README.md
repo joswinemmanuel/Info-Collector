@@ -29,19 +29,7 @@ npm install
 3. Run the code using one of the following commands:
 
 ```
-npm start
-```
-or
-```
-nodemon index.js
-```
-
-If you choose to use `npm start`, make sure you have the following script defined in your `package.json` file:
-
-```json
-"scripts": {
-  "start": "node index.js"
-}
+npm start "search data"
 ```
 
 4. The code will execute the search functions for each search engine, retrieve the search results, and log the titles and links to the console.
